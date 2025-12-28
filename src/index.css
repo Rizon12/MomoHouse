@@ -1,0 +1,23 @@
+@import "tailwindcss";
+/* @import "tailwindcss/preflight";   /* replaces @tailwind base */
+/* @import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./App.css"; */ 
+
+
+/* src/index.css */
+
+/* Optional: utility class fallback */
+.font-allura {
+  font-family: 'Allura', cursive !important;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Chrome, Safari, Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
