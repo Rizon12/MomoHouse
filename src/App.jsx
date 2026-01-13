@@ -14,7 +14,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import ProductsDescription from './pages/ProductsDescription'
 import CartPage from './pages/CartPage'
-import Payment from './features/payment'
+import Payment from './features/Payment'
 
 function App() {
   return (
